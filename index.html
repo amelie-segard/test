@@ -14,6 +14,66 @@
             margin-bottom: 5px;
         }
     </style>
+	<style>
+    html, body, #graphe7 {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    </style>
+  
+	
+    <style type="text/css">
+        #info {
+            margin-top: 50px;
+        }
+        
+        #deptinfo {
+            margin-top: 30px;
+        }
+        
+        .department {
+            cursor: pointer;
+            stroke: black;
+            stroke-width: .5px;
+        }
+        
+        .department:hover {
+            stroke-width: 2px;
+        }
+        
+        div.tooltip {
+            position: absolute;
+            opacity:0.8;
+            z-index:1000;
+            text-align:left;
+            border-radius:4px;
+            -moz-border-radius:4px;
+            -webkit-border-radius:4px;
+            padding:8px;
+            color:#fff;
+            background-color:#000;
+            font: 12px sans-serif;
+            max-width: 300px;
+            height: 60px;
+        }
+        
+        #svg {
+            display: block;
+            margin: auto;
+        }
+    </style>
+  
+  
+  
+  
+
+
+
+
+  
+  
   </head>
   
   <body>
@@ -22,7 +82,7 @@
     hello
 	
 
-	
+
 	<!-- graphe 1 -->
 	<div id='chart1' style="width:600px;height:300px;"></div>
 	
@@ -47,17 +107,22 @@
         </div>
     </div>
 
-	<!-- graphe 7 marche pas 
-<iframe src="//datawrapper.dwcdn.net/sqUkQ/1/" 
-	scrolling="no" 
-	frameborder="0" 
-	allowtransparency="true" 
-	width="370" 
-	height="550">
-</iframe> -->
+	<!-- graphe 7 marche pas -->
+	
+	<!----- Copy and Paste This Code Into Your Post <h3>Infographic Name</h3><a href="http://datawrapper.dwcdn.net/LRMij/1/"><img src="http://www.domain.com/image.jpg" alt="Name of infographic or image" width="700px" /></a><br><p><a href="http://datawrapper.dwcdn.net">eg: Infographic By Domain.com</a></p> ---->
+
+<!-- <iframe src="//datawrapper.dwcdn.net/LRMij/1/" ></iframe> -->
+<!-- <blockquote class="embedly-card"><h4><a href="http://datawrapper.dwcdn.net/LRMij/1/">Départements</a></h4><p>null</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script> -->
 	
 	
-<!-- truc iframe -->
+	
+<!--	<iframe src="http://cf.datawrapper.de/Ffc1u/1/" frameborder="0" allowtransparency="true"
+allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen"
+mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen"
+width="748" height="420"></iframe>
+	
+ truc iframe 
 <base target="_blank">
 <iframe id="Example2"
     name="Example2"
@@ -76,23 +141,55 @@
   <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=es-419&amp;geocode=&amp;q=buenos+aires&amp;sll=37.0625,-95.677068&amp;sspn=38.638819,80.859375&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Buenos+Aires,+Argentina&amp;z=11&amp;ll=-34.603723,-58.381593" style="color:#0000FF;text-align:left"> See bigger map </a>
 </small>
 	
-<!-- fin truc iframe -->
+ fin truc iframe -->
+
 
 
 <img width="532" height="532" src="http://datavizproject.com/wp-content/uploads/2016/06/DVP_1_100-53.png" class="attachment-full size-full wp-post-image" alt="" srcset="http://datavizproject.com/wp-content/uploads/2016/06/DVP_1_100-53.png 532w, http://datavizproject.com/wp-content/uploads/2016/06/DVP_1_100-53-150x150.png 150w, http://datavizproject.com/wp-content/uploads/2016/06/DVP_1_100-53-300x300.png 300w" sizes="(max-width: 532px) 100vw, 532px">
 
 
+<!-- graphe 8 interactif-->
+    <div id="graphe7" style="height: 450px; width: 900px;"></div>
 
 
+<!-- graphe 9 interactif-->
 
-	
-	
+<section>
+
+      <h3>Infogram</h3>
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-md">
+
+<div class="infogram-embed" data-id="94809d73-4e1e-46f2-960f-47fbc0ff2d80" data-type="interactive" data-title="consommation medicament"></div><script>!function(e,t,n,s){var i="InfogramEmbeds",o=e.getElementsByTagName(t)[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\/{2}/.test(s)&&(s=d+s),window[i]&&window[i].initialized)window[i].process&&window[i].process();else if(!e.getElementById(n)){var a=e.createElement(t);a.async=1,a.id=n,a.src=s,o.parentNode.insertBefore(a,o)}}(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/94809d73-4e1e-46f2-960f-47fbc0ff2d80" style="color:#989898!important;text-decoration:none!important;" target="_blank">consommation medicament</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
+		  
+		  </div>
+        </div>
+      </div>
+
+    </section>
+
+<!-- carte leila -->	
+<div id="map"></div>
+
     
     <!--[if lt IE 9]><script src="js/excanvas.min.js"></script><![endif]-->
     <script src="js/flotr2.min.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/flot/0.7/jquery.flot.min.js"></script>
 	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+	
+  <script src="https://cdn.anychart.com/releases/8.2.0/js/anychart-base.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/8.2.0/js/anychart-ui.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/8.2.0/js/anychart-exports.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.anychart.com/releases/8.2.0/css/anychart-ui.min.css" />
+  <link rel="stylesheet" href="https://cdn.anychart.com/releases/8.2.0/fonts/css/anychart-font.min.css" />
+  
+  <script src="d3v4/d3.v4.js"></script>
+  <script src="d3v4/topojson.v2.min.js"></script>
+  <!-- ColorBrewer CSS (https://github.com/mbostock/d3/tree/master/lib/colorbrewer) -->
+  <link rel="stylesheet" href="css/style.css">
+
 	
 	
 	<script>
@@ -338,7 +435,7 @@ Flotr.draw(
 var chart = new CanvasJS.Chart("chartContainer", {
 	animationEnabled: true,
 	title:{
-		text: "Google - Consolidated Quarterly Revenue",
+		text: "Revenue fff",
 		fontFamily: "arial black",
 		fontColor: "#695A42"
 	},
@@ -521,6 +618,127 @@ function toolTipContent(e) {
 
 
 
+<!-- graphe 7 interactif -->
+ <script type="text/javascript">
+anychart.onDocumentReady(function() {
+  // create data set
+  var dataSet = anychart.data.set(getData());
+
+  // map data for the first series, take x from the zero column and value from the first column of data set
+  var seriesData_1 = dataSet.mapAs({
+    'x': 0,
+    'value': 1
+  });
+
+  // map data for the second series, take x from the zero column and value from the second column of data set
+  var seriesData_2 = dataSet.mapAs({
+    'x': 0,
+    'value': 2
+  });
+
+  // create bar chart
+  var chart = anychart.bar();
+
+  // turn on chart animation
+  chart.animation(true);
+
+  // set padding
+  chart.padding([10, 20, 5, 20]);
+
+  // force chart to stack values by Y scale.
+  chart.yScale().stackMode('value');
+
+  // format y axis labels so they are always positive
+  chart.yAxis().labels().format(function() {
+    return Math.abs(this.value).toLocaleString();
+  });
+
+  // set title for Y-axis
+  chart.yAxis(0).title('Revenue in Dollars');
+
+  // allow labels to overlap
+  chart.xAxis(0).overlapMode('allow-overlap');
+
+  // turn on extra axis for the symmetry
+  chart.xAxis(1)
+    .enabled(true)
+    .orientation('right')
+    .overlapMode('allow-overlap');
+
+  // set chart title text
+  chart.title('Cosmetic Sales by Gender');
+
+  chart.interactivity().hoverMode('by-x');
+
+  chart.tooltip()
+    .title(false)
+    .separator(false)
+    .displayMode('separated')
+    .positionMode('point')
+    .useHtml(true)
+    .fontSize(12)
+    .offsetX(5)
+    .offsetY(0)
+    .format(function() {
+      return '<span style="color: #D9D9D9">$</span>' + Math.abs(this.value).toLocaleString();
+    });
+
+  // temp variable to store series instance
+  var series;
+
+  // create first series with mapped data
+  series = chart.bar(seriesData_1);
+  series.name('Females')
+    .color('HotPink');
+  series.tooltip()
+    .position('right')
+    .anchor('left-center');
+
+  // create second series with mapped data
+  series = chart.bar(seriesData_2);
+  series.name('Males');
+  series.tooltip()
+    .position('left')
+    .anchor('right-center');
+
+  // turn on legend
+  chart.legend()
+    .enabled(true)
+    .inverted(true)
+    .fontSize(13)
+    .padding([0, 0, 20, 0]);
+
+  // set container id for the chart
+  chart.container('graphe7');
+
+  // initiate chart drawing
+  chart.draw();
+});
+
+function getData() {
+  return [
+    ['dentiste', 5376, -229],
+    ['Eyebrow pencil', 10987, -932],
+    ['Rouge', 7624, -5221],
+    ['Lipstick', 8814, -256],
+    ['Eyeshadows', 8998, -308],
+    ['Eyeliner', 9321, -432],
+    ['Foundation', 8342, -701],
+    ['Lip gloss', 6998, -908],
+    ['Mascara', 9261, -712],
+    ['Shampoo', 5376, -9229],
+    ['Hair conditioner', 10987, -13932],
+    ['Body lotion', 7624, -10221],
+    ['Shower gel', 8814, -12256],
+    ['Soap', 8998, -5308],
+  ]
+}
+    </script>
+
+
+
+
+
 
 
 
@@ -529,3 +747,100 @@ function toolTipContent(e) {
   </body>
   
 </html>
+
+
+<script type="text/javascript">
+	var width = 700, height = 550;
+
+	var path = d3.geoPath();
+
+	// Projection
+	var projection = d3.geoConicConformal() 
+		.center([2.454071, 46.279229]) // Center on France
+		.scale(2600)
+		.translate([width / 2 - 50, height / 2]);
+
+	path.projection(projection); 
+
+	var svg = d3.select('#map').append("svg")
+		.attr("id", "svg")
+		.attr("width", width)
+		.attr("height", height)
+		.attr("class", "Blues");
+
+	// Append the group that will contain our paths
+	var deps = svg.append("g");
+		
+	// Load GeoJSON data and run a function for each entry
+	d3.json('d3v4/depsFR.json', function(req, geojson) {
+
+		var features = deps
+			.selectAll("path")
+			.data(geojson.features)
+			.enter()
+			.append("path")
+			.attr('id', function(d) {return "d" + d.properties.CODE_DEPT;})
+			.attr("d", path);
+
+		d3.csv("csv/data.csv", function(csv) {
+			var quantile = d3.scaleQuantile()
+				.domain([0, d3.max(csv, function(e) { return +e.txdep; })])
+				.range(d3.range(9));
+
+			var legend = svg.append('g')
+				.attr('transform', 'translate(525, 150)')
+				.attr('id', 'legend');
+			
+			legend.selectAll('.colorbar')
+				.data(d3.range(9))
+			  .enter().append('svg:rect')
+				.attr('y', function(d) { return d * 20 + 'px'; })
+				.attr('height', '20px')
+				.attr('width', '20px')
+				.attr('x', '0px')
+				.attr("class", function(d) { return "q" + d + "-9"; });
+				
+			var legendScale = d3.scaleLinear()
+				.domain([0, d3.max(csv, function(e) { return +e.txdep; })])
+				.range([0, 9 * 20]);
+			
+			var legendAxis = svg.append("g")
+				.attr('transform', 'translate(550, 150)')
+				.call(d3.axisRight(legendScale).ticks(6));
+			
+			csv.forEach(function(e,i) {
+				d3.select("#d" + e.CODE_DEPT)
+					.attr("class", function(d) { return "department q" + quantile(+e.txdep) + "-9"; })
+					.on("mouseover", function(d) {
+						div.transition()        
+							.duration(200)      
+							.style("opacity", .9);
+						div.html("<b>Région : </b>" + e.NOM_REGION + "<br>"
+								+ "<b>Département : </b>" + e.NOM_DEPT + "<br>"
+								+ "<b>Taux de dépassement : </b>" + e.txdep + "<br>"
+                                + "<b> Revenu médian : </b>" + e.rev_med + " €" + "<br>")
+							.style("left", (d3.event.pageX + 30) + "px")     
+							.style("top", (d3.event.pageY - 30) + "px");
+					})
+					.on("mouseout", function(d) {
+						div.transition()
+							.duration(500)
+							.style("opacity", 0);
+						div.html("")
+							.style("left", "0px")
+							.style("top", "0px");
+					});
+			});
+		});
+	});
+	
+	// Refresh colors on combo selection
+	d3.select("select").on("change", function() {
+		d3.selectAll("svg").attr("class", this.value);
+	});
+	
+	// Append a DIV for the tooltip
+	var div = d3.select("body").append("div")   
+		.attr("class", "tooltip")               
+		.style("opacity", 0);
+</script>
